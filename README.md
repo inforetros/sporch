@@ -4,11 +4,11 @@ Sporch is a Text-based Retrieval System for a Spotify Playlist published on kagg
 
 In order to run the project as a comman line tool in a Windows environment, create a .bat file, namely **sporch.bat** with the following content:
 ```sh
-java -jar playlist-explorer.jar %*
+java -jar sporch.jar %*
 ```
 For linux platforms, **sporch.sh** file help with the similar content but just have to replace %* with "$@". i.e. the file should have only the following line:
 ```sh
-java -jar playlist-explorer.jar "$@"
+java -jar sporch.jar "$@"
 ```
 Use **sporch** as an alias for starting playlist-explorer.
 
