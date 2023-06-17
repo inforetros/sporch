@@ -89,4 +89,9 @@ public class Track {
     public String content() {
         return track_name + ' ' + album_name + ' ' + artist_name;
     }
+
+    @Override
+    public String toString() {
+        return "Track[track_uri=" + track_uri + ", track_name=" + track_name + ", album_name=" + album_name + ", artist_name=" + artist_name + "]";
+    }
 }
